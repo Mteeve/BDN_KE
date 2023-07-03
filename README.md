@@ -21,3 +21,6 @@ Market size and potential impact
 Business model and revenue streams
 
 Future plans for expansion
+
+
+Pitch Deck : https://www.canva.com/design/DAFnk8XiyIU/WzREUdgz9v4CeLKt1l2L-A/view?utm_content=DAFnk8XiyIU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
