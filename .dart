@@ -70,7 +70,24 @@ class DonorRegistrationPage extends StatelessWidget {
         title: Text('Donor Registration'),
       ),
       body: Center(
-        child: Text('Donor Registration Form'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Donor Registration Form'),
+            RaisedButton(
+              onPressed: () {
+                // Code to handle easy sign-up process
+              },
+              child: Text('Create Account'),
+            ),
+            RaisedButton(
+              onPressed: () {
+                // Code to handle QR code integration
+              },
+              child: Text('Scan QR Code'),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -103,3 +120,53 @@ class DonationCenterLocatorPage extends StatelessWidget {
     );
   }
 }
+
+class BloodTrackingPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Blood Tracking'),
+      ),
+      body: Center(
+        child: Text('Blood Tracking Page'),
+      ),
+    );
+  }
+}
+
+class EmergencyDonationPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Emergency Donation'),
+      ),
+      body: Center(
+        child: Text('Emergency Donation Page'),
+      ),
+    );
+  }
+}
+
+class RemindersPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Reminders'),
+      ),
+      body: Center(
+        child: Text('Reminders Page'),
+      ),
+    );
+  }
+}
+
+class NotificationsPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Notifications'),
+     
